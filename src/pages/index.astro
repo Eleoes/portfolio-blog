@@ -1,10 +1,14 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import Home from '../components/Home/Home.astro';
+import About from '../components/About/About.astro';
+import Journey from '../components/Journey/Journey.jsx';
 
 const pageTitle = "Home";
 ---
 <BaseLayout pageTitle={pageTitle}>
 	<Home />
+	<About />
+	<Journey client:load/>
 </BaseLayout>
 
