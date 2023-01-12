@@ -7,6 +7,10 @@
     padding: 2rem 0 6rem;
 }
 
+.footer__link {
+    font-size: var(--small-font-size);
+}
+
 .footer__title,
 .footer__link {
     color: var(--title-color);
@@ -41,6 +45,7 @@
     padding: 0.4rem;
     border-radius: 0.5rem;
     display: inline-flex;
+    transition: .3s;
 }
 
 .footer__social-link:hover {
@@ -61,6 +66,5 @@
     .footer__social-link {
         padding: 0.25rem;
         border-radius: 0.25rem;
-        font-size: 1rem;
     }
 }
