@@ -3,6 +3,9 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import Home from '../components/Home/Home.astro';
 import About from '../components/About/About.astro';
 import Journey from '../components/Journey/Journey.jsx';
+import Skills from '../components/Skills/Skills.astro';
+import Portfolio from '../components/Portfolio/Portfolio.astro';
+import Contact from '../components/Contact/Contact.astro';
 
 const pageTitle = "Home";
 ---
@@ -10,5 +13,8 @@ const pageTitle = "Home";
 	<Home />
 	<About />
 	<Journey client:load/>
+	<Skills />
+	<Portfolio />
+	<Contact />
 </BaseLayout>
 
