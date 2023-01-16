@@ -1,10 +1,8 @@
 ---
 layout: ../../layouts/BlogPost.astro
-public: true
 title: First Post
 pubDate: 2022-07-01
-description: 'This is the first post of my new Astro blog.'
-author: 'Astro Learner'
+description: 'This is the first post of my new Astro blog.This is the first post of my new Astro blog.This is the first post of my new Astro blog.This is the first post of my new Astro blog.'
 heroImg:
     url: 'https://astro.build/assets/blog/astro-1-release-update/cover.jpeg' 
     alt: 'The Astro logo with the word One.'
@@ -12,7 +10,7 @@ tags: ["astro", "blogging", "learning in public"]
 ---
 Welcome to my _new blog_ about learning Astro! Here, I will share my learning journey as I build a new website.
 
-## What I've accomplished
+### What I've accomplished
 
 1. **Installing Astro**: First, I created a new Astro project and set up my online accounts.
 
@@ -22,6 +20,6 @@ Welcome to my _new blog_ about learning Astro! Here, I will share my learning jo
 
 
 
-## What's next
+### What's next
 
 I will finish the Astro tutorial, and then keep adding more posts. Watch this space for more to come.

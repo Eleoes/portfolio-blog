@@ -1,23 +1,20 @@
 ---
 import './blogpost.css';
-const { pubDate, title, url, heroImg, description, tags } = Astro.props;
+const { title, url, heroImg, description, tags } = Astro.props;
 ---
 <a href={url} class="post__card">
-    <div>
-        <img src={ heroImg.url } alt={ title } class="post__img"/>
-    </div>
+    <img src={ heroImg.url } alt={ title } class="post__img"/>
     <div class="card__content">
-        <span class="post__pubDate">{pubDate.slice(0,10)}</span>
-        <h3 class="post__title">{title}</h3>
-        <p class="post__description">
+        <div>
+            <h2 class="post__title">{title}</h2>
+            <p class="post__description">
             {description}
         </p>
+        </div>
         <div class="post__tags">
             {tags.map((tag) => (
                 <span class="tag">{tag}</span>
             ))}
         </div>
     </div>
-    
-
 </a>

@@ -9,7 +9,14 @@ const { frontmatter } = Astro.props;
             <span>Posted on: {frontmatter.pubDate.slice(0,10)}</span>
             <span class="post__readTime" id="readTime"></span>
         </div>
-        <hr>
+        <p class="post__description">
+            {frontmatter.description}
+        </p>
+        <img 
+            class="post__img" 
+            src={frontmatter.heroImg.url}
+            alt={frontmatter.heroImg.alt}
+        />
         <slot />
     </article>
 </BaseLayout>
@@ -25,6 +32,18 @@ const { frontmatter } = Astro.props;
     .post__info {
         display: flex;
         flex-direction: column;
+        margin-bottom: var(--mb-2);
+    }
+
+    .post__description {
+        max-width: 968px;
+        margin: 2rem auto;
+        text-indent: 1rem;
+    }
+
+    .post__img {
+        width: 100%;
+        height: auto;
         margin-bottom: var(--mb-2);
     }
 </style>

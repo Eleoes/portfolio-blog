@@ -43,7 +43,7 @@
 }
 
 .post__title {
-    font-size: var(--h3-font-size);
+    font-size: var(--h2-font-size);
     font-weight: var(--font-medium);
     margin-bottom: var(--mb-0-5);
 }
@@ -52,11 +52,18 @@
     color: var(--text-color);
     font-size: var(--small-font-size);
     margin-bottom: var(--mb-0-5);
+    overflow: hidden;
+    position: relative;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+
 }
 
 .post__tags {
-    display: flex;
+    align-items: flex-start;
     gap: .5rem;
+    bottom: 0px;
 }
 
 .tag {
