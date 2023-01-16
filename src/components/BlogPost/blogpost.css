@@ -62,7 +62,7 @@
 .tag {
     font-size: var(--tiny-font-size);
     color: var(--title-color);
-    border: .5px solid var(--title-color);
+    background-color: var(--body-color);
     padding: 0.125rem 0.25rem;
     border-radius: 9999px;
     transition: .3s ease-in-out;
@@ -71,6 +71,11 @@
 .tag:hover {
     color: var(--title-color);
     background-color: var(--title-color-yellow);
+}
+
+.post__info {
+    display: flex;
+    flex-direction: column;
 }
 
 /*=============== BREAKPOINTS ===============*/

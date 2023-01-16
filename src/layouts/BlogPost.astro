@@ -1,23 +1,30 @@
 ---
 import BaseLayout from './BaseLayout.astro';
-const { title, description, heroImg, tags } = Astro.props;
+const { frontmatter } = Astro.props;
 ---
-<BaseLayout pageTitle={title}>
-    <content>
-        <div>
-            {
-                heroImg &&  (
-                    <img
-                        class=""
-                        src={heroImg}
-                        alt=""
-                    />
-                )
-            }
+<BaseLayout pageTitle={frontmatter.title}>
+    <article class="section container" id="article">
+        <h1 class="post__title">{frontmatter.title}</h1>
+        <div class="post__info">
+            <span>Posted on: {frontmatter.pubDate.slice(0,10)}</span>
+            <span class="post__readTime" id="readTime"></span>
         </div>
-        <h1>{title}</h1>
-        <div>{description}</div>
         <hr>
         <slot />
-    </content>
+    </article>
 </BaseLayout>
+
+<style>
+    .post__title {
+        font-size: var(--h1-font-size);
+        color: var(--title-color);
+        text-align: left;
+        margin-bottom: var(--mb-1);
+    }
+
+    .post__info {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: var(--mb-2);
+    }
+</style>
