@@ -50,4 +50,8 @@ const { frontmatter } = Astro.props;
         height: auto;
         margin-bottom: var(--mb-2);
     }
+
+    ::slotted(*) {
+        padding: 1rem;
+    }
 </style>

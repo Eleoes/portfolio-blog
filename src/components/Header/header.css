@@ -50,12 +50,25 @@
     color: var(--title-color);
 }
 
+.nav__logo {
+    transition: .3s;
+    padding: 0.25rem 0.75rem;
+    border-radius: 0.5rem;
+}
+.nav__logo:hover {
+    background-color: var(--title-color-yellow);
+    color: var(--title-color);
+}
 .scroll-header {
     box-shadow: 0 -1px 4px rgba(0,0,0,0.15);
     
 }
 /*=============== BREAKPOINTS ===============*/
-
+@media screen and (min-width: 769px) {
+    #nav-home {
+        display: none;
+    }
+}
 /* For medium devices */
 @media screen and (max-width: 768px) {
     .header {

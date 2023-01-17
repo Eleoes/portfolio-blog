@@ -16,6 +16,7 @@
     cursor: pointer;
     padding: 0.25rem 0.75rem;
     border-radius: 0.5rem;
+    transition: .3s ease-in-out;
 }
 
 .journey__button:hover {
@@ -56,6 +57,7 @@
 .journey__title {
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
+    margin: 0;
 }
 
 .journey__subtitle {

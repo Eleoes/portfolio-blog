@@ -10,6 +10,7 @@
     font-size: var(--h3-font-size);
     font-weight: var(--font-medium);
     margin-bottom: var(--mb-1-5);
+    margin-top: 0;
 }
 .contact__info {
     display: grid;

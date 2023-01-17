@@ -33,6 +33,7 @@
 .about__title {
     font-size: var(--small-font-size);
     font-weight: var(--font-medium);
+    margin: 0;
 }
 
 .about__subtitle {
@@ -41,6 +42,7 @@
 
 .about__description {
     padding: 0 4rem 0 0;
+    margin-top: 0;
     margin-bottom: var(--mb-2-5);
     text-align: left;
 }

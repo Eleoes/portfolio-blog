@@ -18,10 +18,11 @@
 .home__social-icon {
     font-size: 1.25rem;
     color: var(--title-color);
+    transition: .2s ease-in-out;
 }
 
 .home__social-icon:hover {
-    color: var(--title-color-dark);
+    color: var(--title-color-yellow);
 }
 
 .home__title {
@@ -40,6 +41,7 @@
     font-size: var(--h3-font-size);
     padding-left: 5.4rem;
     font-weight: var(--font-normal);
+    margin: 0;
     margin-bottom: var(--mb-1);
 }
 
@@ -55,6 +57,7 @@
 
 .home__description {
     max-width: 400px;
+    margin-top: 0;
     margin-bottom: var(--mb-3);
 }
 
