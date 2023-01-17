@@ -6,4 +6,6 @@ function readingTime () {
     document.getElementById('readTime').innerText = time;
 }
 
-readingTime();
+if (window.location.href.includes('posts')) {
+    readingTime();
+}
