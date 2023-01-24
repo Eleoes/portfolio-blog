@@ -1,4 +1,5 @@
 .blog__title {
+    background-color: var(--title-color-yellow);
     font-size: var(--big-font-size);
     color: var(--title-color);
     text-align: center;

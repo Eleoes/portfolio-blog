@@ -1,14 +1,14 @@
 ---
 layout: ../../layouts/BlogPost.astro
-title: First Post
-pubDate: 2022-07-01
-description: 'This is the first post of my new Astro blog.This is the first post of my new Astro blog.This is the first post of my new Astro blog.This is the first post of my new Astro blog.'
+title: No eggs at Whole Foods.
+pubDate: 2023-01-27
+description: "What better way to start this blog than to write about my time in the U.S. so far. From getting assaulted at gun point for the first time, to losing 1/3 of my paycheck to taxes; gringos are wild, y'all."
 heroImg:
     url: 'https://astro.build/assets/blog/astro-1-release-update/cover.jpeg' 
     alt: 'The Astro logo with the word One.'
-tags: ["astro", "blogging", "learning in public"]
+tags: ["personal", "blogging"]
 ---
-Welcome to my _new blog_ about learning Astro! Here, I will share my learning journey as I build a new website.
+Welcome to _Chilaquiles Verdes_ ! Here, you hopefully find some cheer in my Mexican humor or at least find something to talk to me about. 
 
 ### What I've accomplished
 
