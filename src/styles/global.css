@@ -85,8 +85,9 @@ textarea {
 
 body {
     background-color: var(--body-color);
-    color: var(--text-color);
+    color: var(--title-color);
 }
+
 
 h1,
 h2,
@@ -102,6 +103,7 @@ ul {
 
 a {
     text-decoration: none;
+    color: var(--title-color);
 }
 
 button {
