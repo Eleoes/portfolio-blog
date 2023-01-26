@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/BlogPost.astro
 title: Moving to California
-pubDate: 2023-01-27
+pubDate: 2023-01-26
 description: "What better way to start this blog than to write about my time in the U.S. so far. From getting assaulted at gun point for the first time, to meeting the best people in my life. Whew!"
 heroImg:
     url: '/Hike_Hills.jpg' 
