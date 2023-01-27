@@ -11,9 +11,17 @@
     text-indent: 1rem;
 }
 
+.blog__quejas {
+    max-width: 968px;
+    margin: 1rem auto;
+    text-align: center;
+    color: var(--text-color);
+}
+
 .posts__container {
     grid-template-columns: repeat(3, minmax(0,1fr));
     justify-content: center;
+    margin-bottom: var(--mb-2);
 }
 
 .post__card {
