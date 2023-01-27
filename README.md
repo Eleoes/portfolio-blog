@@ -1,6 +1,6 @@
 # My personal website
 
-Hi! I originally made this static website in React. After looking into [Astro](https://astro.build/), and playing around with it, I decided to refactor my website and add a blog with it!
+Hi! I originally made this static website in React. After looking into [Astro](https://astro.build/), and playing around with it, I decided to refactor my website and add a blog using its MPA architecture. 
 
 ## Technologies used
 
