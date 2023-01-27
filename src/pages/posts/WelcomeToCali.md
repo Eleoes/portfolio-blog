@@ -1,8 +1,8 @@
 ---
 layout: ../../layouts/BlogPost.astro
-title: Moving to California
-pubDate: 2023-01-26
-description: "What better way to start this blog than to write about my time in the U.S. so far. From getting assaulted at gun point for the first time, to meeting the best people in my life. Whew!"
+title: Welcome to Cali
+pubDate: 2023-01-24
+description: "Intro Part I: What better way to start this blog than to write about my time in the U.S. so far."
 heroImg:
     url: '/Hike_Hills.jpg' 
     alt: 'Hiking on a hill on a sunny day'
