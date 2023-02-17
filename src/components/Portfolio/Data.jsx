@@ -33,7 +33,7 @@ export const projectsData = [
         image: HooBank,
         title: "HooBank",
         category: "Frontend",
-        url: 'https://reactful-project.com/',
+        url: 'https://bank-static.netlify.app/',
         code: 'https://github.com/Eleoes/bank_app',
     },
 ];
