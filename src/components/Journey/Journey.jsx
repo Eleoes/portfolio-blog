@@ -17,17 +17,87 @@ const Journey = () => {
                 <div className="journey__tabs">
                     <div className={toggleState === 1 ? "journey__button journey__active button--flex" : "journey__button button--flex"}
                         onClick={() => toggleTab(1)}>
-                        <i className='bx bxs-graduation journey__icon'></i> Education
+                        <i className='bx bxs-briefcase journey__icon' ></i>Experience
                     </div>
 
                     <div className={toggleState === 2 ? "journey__button journey__active button--flex" : "journey__button button--flex"}
                         onClick={() => toggleTab(2)}>
-                        <i className='bx bxs-briefcase journey__icon' ></i>Experience
+                        <i className='bx bxs-graduation journey__icon'></i> Education
                     </div>
+
+                    
                 </div>
 
                 <div className="journey__sections">
+                    
+
                     <div className={toggleState === 1 ? "journey__content journey__content-active" : "journey__content"}>
+                        <div className="journey__data">
+                            <div>
+                                <h3 className="journey__title">Fullstack Developer</h3>
+                                <span className="journey__subtitle">Freelance</span>
+                                <div className="journey__calendar">
+                                    <i className="uil uil-calendar-alt"></i>Nov 2022 - Current
+                                </div>
+                            </div>
+
+                            <div>
+                                <span className="journey__rounder"></span>
+                                <span className="journey__line"></span>
+                            </div>
+                        </div>
+
+                        <div className="journey__data">
+                            <div></div>
+
+                            <div>
+                                <span className="journey__rounder"></span>
+                                <span className="journey__line"></span>
+                            </div>
+
+                            <div>
+                                <h3 className="journey__title">Project Manager</h3>
+                                <span className="journey__subtitle">Baran Studio</span>
+                                <div className="journey__calendar">
+                                    <i className="uil uil-calendar-alt"></i>July 2021 - Feb 2023
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="journey__data">
+                            <div>
+                                <h3 className="journey__title">Designer</h3>
+                                <span className="journey__subtitle">Baran Studio</span>
+                                <div className="journey__calendar">
+                                    <i className="uil uil-calendar-alt"></i>Feb 2018 - Jun 2021
+                                </div>
+                            </div>
+
+                            <div>
+                                <span className="journey__rounder"></span>
+                                <span className="journey__line"></span>
+                            </div>
+                        </div>
+
+                        <div className="journey__data">
+                            <div></div>
+
+                            <div>
+                                <span className="journey__rounder"></span>
+                                <span className="journey__line"></span>
+                            </div>
+
+                            <div>
+                                <h3 className="journey__title">Designer</h3>
+                                <span className="journey__subtitle">BantaDESIGN</span>
+                                <div className="journey__calendar">
+                                    <i className="uil uil-calendar-alt"></i>May 2015 - Jan 2018
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className={toggleState === 2 ? "journey__content journey__content-active" : "journey__content"}>
                         <div className="journey__data">
                             <div>
                                 <h3 className="journey__title">Software Engineering</h3>
@@ -88,72 +158,6 @@ const Journey = () => {
                                 <span className="journey__subtitle">外語ビジネス専門学校</span>
                                 <div className="journey__calendar">
                                     <i className="uil uil-calendar-alt"></i>2008 - 2009
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className={toggleState === 2 ? "journey__content journey__content-active" : "journey__content"}>
-                        <div className="journey__data">
-                            <div>
-                                <h3 className="journey__title">Student</h3>
-                                <span className="journey__subtitle">General Assembly</span>
-                                <div className="journey__calendar">
-                                    <i className="uil uil-calendar-alt"></i>2022
-                                </div>
-                            </div>
-
-                            <div>
-                                <span className="journey__rounder"></span>
-                                <span className="journey__line"></span>
-                            </div>
-                        </div>
-
-                        <div className="journey__data">
-                            <div></div>
-
-                            <div>
-                                <span className="journey__rounder"></span>
-                                <span className="journey__line"></span>
-                            </div>
-
-                            <div>
-                                <h3 className="journey__title">Project Manager</h3>
-                                <span className="journey__subtitle">Baran Studio</span>
-                                <div className="journey__calendar">
-                                    <i className="uil uil-calendar-alt"></i>July 2021 - Present
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="journey__data">
-                            <div>
-                                <h3 className="journey__title">Designer</h3>
-                                <span className="journey__subtitle">Baran Studio</span>
-                                <div className="journey__calendar">
-                                    <i className="uil uil-calendar-alt"></i>Feb 2018 - Jun 2021
-                                </div>
-                            </div>
-
-                            <div>
-                                <span className="journey__rounder"></span>
-                                <span className="journey__line"></span>
-                            </div>
-                        </div>
-
-                        <div className="journey__data">
-                            <div></div>
-
-                            <div>
-                                <span className="journey__rounder"></span>
-                                <span className="journey__line"></span>
-                            </div>
-
-                            <div>
-                                <h3 className="journey__title">Designer</h3>
-                                <span className="journey__subtitle">BantaDESIGN</span>
-                                <div className="journey__calendar">
-                                    <i className="uil uil-calendar-alt"></i>May 2015 - Jan 2018
                                 </div>
                             </div>
                         </div>

@@ -2,10 +2,19 @@ import Portfolio from '/Portfolio.png';
 import PlantPH from '/PlantPH.png';
 import HooBank from '/HooBank.png';
 import UQuiz from '/UQuiz.png';
+import CraveCraft from '/CraveCraft.png';
 
 export const projectsData = [
     {
         id: 1,
+        image: CraveCraft,
+        title: "Crave Craft",
+        category: "Fullstack",
+        url: 'https://cravecraft.onrender.com/',
+        code: 'https://github.com/Eleoes/cravecraft-frontend',
+    },
+    {
+        id: 2,
         image: Portfolio,
         title: "My Website",
         category: "Other",
@@ -13,7 +22,7 @@ export const projectsData = [
         code: 'https://github.com/Eleoes/portfolio-blog',
     },
     {
-        id: 2,
+        id: 3,
         image: PlantPH,
         title: "Plant Parenthood",
         category: "Fullstack",
@@ -21,7 +30,7 @@ export const projectsData = [
         code: 'https://github.com/Eleoes/plant_parenthood',
     },
     {
-        id: 3,
+        id: 4,
         image: UQuiz,
         title: "UQuiz (Desktop Only)",
         category: "Fullstack",
@@ -29,7 +38,7 @@ export const projectsData = [
         code: 'https://github.com/Eleoes/UQuiz',
     },
     {
-        id: 4,
+        id: 5,
         image: HooBank,
         title: "HooBank",
         category: "Frontend",
