@@ -2,11 +2,20 @@ import Portfolio from '/Portfolio.png';
 import PlantPH from '/PlantPH.png';
 import HooBank from '/HooBank.png';
 import UQuiz from '/UQuiz.png';
-import CraveCraft from '/CraveCraft.png';
+import CraveCraft from '/Crave Craft.png';
+import EShop from '/E-shop.png';
 
 export const projectsData = [
     {
         id: 1,
+        image: EShop,
+        title: "E-Shop",
+        category: "Fullstack",
+        url: 'https://e-shop-front-eleoes.vercel.app/',
+        code: 'https://github.com/Eleoes/e-shop_front',
+    },
+    {
+        id: 2,
         image: CraveCraft,
         title: "Crave Craft",
         category: "Fullstack",
@@ -14,7 +23,7 @@ export const projectsData = [
         code: 'https://github.com/Eleoes/cravecraft-frontend',
     },
     {
-        id: 2,
+        id: 3,
         image: Portfolio,
         title: "My Website",
         category: "Other",
@@ -22,7 +31,7 @@ export const projectsData = [
         code: 'https://github.com/Eleoes/portfolio-blog',
     },
     {
-        id: 3,
+        id: 4,
         image: PlantPH,
         title: "Plant Parenthood",
         category: "Fullstack",
@@ -30,7 +39,7 @@ export const projectsData = [
         code: 'https://github.com/Eleoes/plant_parenthood',
     },
     {
-        id: 4,
+        id: 5,
         image: UQuiz,
         title: "UQuiz (Desktop Only)",
         category: "Fullstack",
@@ -38,7 +47,7 @@ export const projectsData = [
         code: 'https://github.com/Eleoes/UQuiz',
     },
     {
-        id: 5,
+        id: 6,
         image: HooBank,
         title: "HooBank",
         category: "Frontend",
