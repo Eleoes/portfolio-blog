@@ -3,7 +3,7 @@ import PlantPH from '/PlantPH.png';
 import HooBank from '/HooBank.png';
 import UQuiz from '/UQuiz.png';
 import CraveCraft from '/Crave Craft.png';
-import EShop from '/E-shop.png';
+import EShop from '/EShop.png';
 
 export const projectsData = [
     {
